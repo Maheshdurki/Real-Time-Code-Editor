@@ -9,7 +9,7 @@ import {
   FiRefreshCw
 } from "react-icons/fi";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://real-time-code-editor-vwzm.onrender.com");
 const generateColor = (name) => {
   const colors = [
     'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
